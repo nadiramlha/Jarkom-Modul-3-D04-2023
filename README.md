@@ -6,6 +6,7 @@
 |      Nadira Milha Nailul Fath      | 5025211253 |
 ## Topologi
 <img width="348" alt="Screenshot 2023-11-19 151156" src="https://github.com/nadiramlha/Jarkom-Modul-3-D04-2023/assets/88009253/ccee91f5-a45c-4142-a932-d79addecfa8f">
+
 Ketentuan konfigurasi
 | Node    | Kategori            | Konfigurasi IP |
 | :-----: | :-----------------: | :------------: |
