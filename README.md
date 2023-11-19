@@ -25,4 +25,5 @@ Ketentuan konfigurasi
 | Richter | Client              | Dynamic        |
 | Sein    | Client              | Dynamic        |
 | Stark   | Client              | Dynamic        |
+
 Dengan menggunakan image ``danielcristh0/debian-buster:1.1``
