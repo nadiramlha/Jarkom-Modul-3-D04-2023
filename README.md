@@ -106,26 +106,25 @@ Register domain riegel.canyon.D04.com untuk worker Laravel & domain granz.channe
   ```
   Ubah isi file ``/etc/bind/named.conf.local``
   ```bash
-    zone "riegel.canyon.D04.com" {
-    type master;
-    file "/etc/bind/jarkom/riegel.canyon.D04.com";
-    };
+  zone "riegel.canyon.D04.com" {
+  	  type master;
+  	  file "/etc/bind/jarkom/riegel.canyon.D04.com";
+  };
 
-    zone "granz.channel.D04.com" {
-    type master;
-    file "/etc/bind/jarkom/granz.channel.D04.com";
-    };
+  zone "granz.channel.D04.com" {
+  	  type master;
+  	  file "/etc/bind/jarkom/granz.channel.D04.com";
+  };
 
-    zone "4.193.192.in-addr.arpa" {
-    type master;
-    file "/etc/bind/jarkom/4.193.192.in-addr.arpa";
-    };
+  zone "4.193.192.in-addr.arpa" {
+  	  type master;
+  	  file "/etc/bind/jarkom/4.193.192.in-addr.arpa";
+  };
 
-    zone "3.193.192.in-addr.arpa" {
-    type master;
-    file "/etc/bind/jarkom/3.193.192.in-addr.arpa";
-    };
-
+  zone "3.193.192.in-addr.arpa" {
+  	  type master;
+  	  file "/etc/bind/jarkom/3.193.192.in-addr.arpa";
+  };
   ```
   Pada masing-masing file yang di copy isikan konfigurasi domain berikut
   - riegel.canyon.D04.com
