@@ -130,21 +130,20 @@ Register domain riegel.canyon.D04.com untuk worker Laravel & domain granz.channe
   Pada masing-masing file yang di copy isikan konfigurasi domain berikut
   - riegel.canyon.D04.com
     ```bash
-        ;
-        ; BIND data file for local loopback interface
-        ;
-        $TTL    604800
-        @       IN      SOA     riegel.canyon.D04.com. root.riegel.canyon.D04.com. (
-                       2022100601         ; Serial
-                           604800         ; Refresh
-                            86400         ; Retry
-                          2419200         ; Expire
-                           604800 )       ; Negative Cache TTL
-        ;
-        @       IN      NS      riegel.canyon.D04.com.
-        @       IN      A       192.193.4.1     ; IP Frieren
-        @       IN      AAAA    ::1
-
+    ;
+    ; BIND data file for local loopback interface
+    ;
+    $TTL    604800
+    @       IN      SOA     riegel.canyon.D04.com. root.riegel.canyon.D04.com. (
+                   2022100601         ; Serial
+                       604800         ; Refresh
+                        86400         ; Retry
+                      2419200         ; Expire
+                       604800 )       ; Negative Cache TTL
+    ;
+    @       IN      NS      riegel.canyon.D04.com.
+    @       IN      A       192.193.4.1     ; IP Frieren
+    @       IN      AAAA    ::1
     ```
   - granz.channel.D04.com
     ```bash
