@@ -303,10 +303,6 @@ Pada soal 1 diminta mengarahkan domain pada worker laravel dan php yang memiliki
       fixed-address 192.193.3.3;
   }
   ```
-  lakukan retart
-  ```bash
-  service isc-dhcp-server restart
-  ```
 ## Nomor 2, 3, 4, & 5
 ### Soal
 Client yang melalui Switch3 mendapatkan range IP dari 192.193.3.16 - 192.193.3.32 dan 192.193.3.64 - 192.193.3.80 (2)
@@ -343,6 +339,10 @@ Lama waktu DHCP server meminjamkan alamat IP kepada Client yang melalui Switch3 
       default-lease-time 720;
       max-lease-time 5760;
   }
+  ``` 
+  lakukan retart
+  ```bash
+  service isc-dhcp-server restart
   ```
 ## Nomor 6
 ### Soal
