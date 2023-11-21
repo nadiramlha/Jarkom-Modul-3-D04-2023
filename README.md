@@ -77,7 +77,7 @@ Dengan menggunakan image ``danielcristh0/debian-buster:1.1``
   iface eth0 inet dhcp
   ```
 Konfigurasi seluruh node 
-(Fixed Address), kecuali rooter, dns server, dhcp server, dan client
+(Fixed Address), kecuali rooter, dns server, dhcp server
 ```
 auto eth0
 iface eth0 inet dhcp
