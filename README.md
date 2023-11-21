@@ -403,6 +403,7 @@ ln -s /etc/nginx/sites-available/granz.channel.D04 /etc/nginx/sites-enabled
 rm -rf /etc/nginx/sites-enabled/default
 service nginx restart
 service php7.3-fpm start
+apt-get install lynx
 ```
 Testing
 ```bash
